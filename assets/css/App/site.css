@@ -1,0 +1,63 @@
+/* Navbar Css */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/material-icon-lib.woff2) format('woff2');
+  }
+
+  :root {
+    --blue: #003c93;
+    --green: #00e32e;
+  }
+
+.navbar-nav > .nav-item {
+    margin-left: 20px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    color: red;
+}
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+  
+
+
+  .dropdown-toggle::after {
+    display: none !important;
+}
+
+  .nav_contact_icon{
+    color: var(--blue);;
+   font-size: 40px;
+  }
+
+  .navbar_flexDiv{
+    display: flex;
+    justify-content: space-between;
+   
+  }
+
+
+  .navbar-toggler{
+    background-color:#edebeb91;
+  }
+
+  .navbar-toggler:hover{
+    background-color: #edebeb;
+  }
+  

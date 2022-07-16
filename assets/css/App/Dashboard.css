@@ -1,0 +1,304 @@
+.breadcrumb-bar {
+    background-color: #15558d;
+    padding: 15px 0;
+}
+.page-breadcrumb ol {
+    background-color: transparent;
+    font-size: 12px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.page-breadcrumb ol li.active {
+    color: #fff;
+}
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0.5rem;
+}
+.page-breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+    color: #fff;
+    font-size: 10px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+   
+    
+    content: "/";
+}
+    .breadcrumb-item+.breadcrumb-item::before {
+        float: left;
+    }
+    .profile-sidebar {
+        background-color: #fff;
+        border: 1px solid #f0f0f0;
+        border-radius: 4px;
+        /* margin-bottom: 30px; */
+        overflow: hidden;
+        margin-top: 100px;
+        
+    }
+    .Doctorimg {
+        height: 150px;
+        width: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left:80px ;
+        background-color: #eff8f1;
+        justify-content: center;
+        text-align: center;
+        border-radius: 100%;
+        box-shadow: 1px 6px 10px rgb(0 0 0 / 20%);
+      }
+      .Darren{
+        
+        margin-top: 20px;
+         margin-left: 30px;
+         
+      }
+      .Darren1{
+        border-top: 1px solid #f0f0f0;
+          font-size: 16px;
+         padding-top: 10px;
+        padding-left: 20px;
+        
+      }
+      .Darren1:hover{
+        font-size: 16px;
+          color: aqua;
+         font-weight: bold;
+         
+      }
+       
+        
+      .dashboard> span {
+        font-size: 20px;
+        margin: 10px;
+       
+        
+       
+      }
+      
+      .Patient{
+        border: 1px solid #f0f0f0;
+        margin-top: 100px;
+         padding: 10px;
+        border-radius: 4px;
+        background-color: #fff;
+      }
+      .Patientrow{
+        border-right: 1px solid #f0f0f0;
+         
+      }
+       svg{
+        box-sizing: border-box;
+        
+        
+         text-align: center;
+        height: 150px;
+        width: 150px;
+       
+         
+       }
+       /* .RCP {
+        margin-left: 10px;
+        width: 105px !important;
+    } */
+       .RCP .indicator-volume {
+        position: absolute;
+        position: absolute;
+        top: 50px;
+        margin-top: 0px;
+        left: 55px;
+        width: 28px;
+    }
+       .boxsize img{
+        margin-top: 25px;
+       }
+       .dash-widget {
+        flex-direction: unset;
+        text-align: left;
+    }
+    .style {
+        position: relative;
+        width: 240px;
+    }
+    .RCP {
+        margin-right: 5px;
+        width: 105px !important;
+    }
+    .Patient2{
+        border: 1px solid #f0f0f0;
+        
+        padding: 20px;
+        border-radius: 4px;
+        background-color: #fff;
+      }
+    
+      .button1:hover{
+        background-color: #c3d7ec;
+     
+        
+        color: white;
+        
+      }
+       
+
+   
+    .flex {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto
+    }
+   
+    @media (max-width:991.98px) {
+        .padding {
+            padding: 1.5rem
+        }
+    }
+   
+    @media (max-width:767.98px) {
+        .padding {
+            padding: 1rem
+        }
+    }
+   
+    /* .padding {
+        padding: 5rem
+    }
+    */
+    .card {
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        -ms-box-shadow: none;
+        border:1px;
+    }
+   
+    .pl-3,
+    .px-3 {
+        padding-left: 1rem !important
+    }
+   
+    /* .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid #cc1c1c;
+        border-radius: 0
+    }
+     */
+    /* .card .card-title {
+       color: #000000;
+       margin-bottom: 0.625rem;
+       text-transform: capitalize;
+       font-size: 0.875rem;
+       font-weight: 500;
+   } */
+   
+   /* .card .card-description {
+       margin-bottom: .875rem;
+       font-weight: 400;
+       color: #76838f;
+   } */
+   
+   /* p {
+       font-size: 0.875rem;
+       margin-bottom: .5rem;
+       line-height: 1.5rem;
+   } */
+   
+   .table-responsive {
+       display: block;
+       width: 100%;
+       overflow-x: auto;
+       -webkit-overflow-scrolling: touch;
+       -ms-overflow-style: -ms-autohiding-scrollbar;
+     
+       
+   }
+   
+   /* .table, .jsgrid .jsgrid-table {
+       width: 100%;
+       max-width: 100%;
+       margin-bottom: 19rem;
+       background-color: transparent;
+   } */
+   
+   .table thead th, .jsgrid .jsgrid-table thead th {
+       border-top: 0;
+       border-bottom-width: 1px;
+       font-weight: 500;
+       font-size: 1rem;
+       text-transform: uppercase;
+   }
+   
+   .table td, .jsgrid .jsgrid-table td {
+       font-size: 0.875rem;
+       padding: 20px;
+   }
+   
+   .badge {
+       border-radius: 0;
+       font-size: 12px;
+       line-height: 1;
+       padding: .375rem .5625rem;
+       font-weight: normal;
+   }
+    
+     .container-fluid1{
+        padding: 0;
+        margin: 0;
+      
+     }
+     .tdimage{
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        margin-right: 10px;
+     }
+     .tdspan {
+        color: #888;
+        display: block;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .btncolor1{
+
+        background-color: #a0cff8;
+        border-color:#a0cff8 ;
+        color: #276cc7;
+    }
+    .btncolor2{
+
+        background-color: #80c5ec;
+        border-color:#80c5ec ;
+        color: #355c1b;
+    }
+    .btncolor3{
+
+        background-color: #e99fab;
+        border-color:#f09dab ;
+        color: #bd2546;
+    }
+    .btncolor3:hover{
+
+        background-color: #e99fab;
+        border-color:#f09dab ;
+        color: #a6f094;
+    }
+    .dash> span {
+        font-size: 12px;
+       
+        margin: 2px;
+  }
+  .dash-widget h6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.dct-border-rht {
+    border-right: 1px solid #f0f0f0;
+}
